@@ -1,4 +1,132 @@
-h1 {
-    background-color: antiquewhite;
-    color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* Global stytle */
+.primary-btn {
+    background-color: orange;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 50px;
+}
+
+.sec-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+}
+
+.section-tiitle {
+    font-size: 2.8rem;
+    font-weight: bold;
+
+}
+
+.caeds-tittle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #202020;
+}
+
+.card-dic {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(102, 102, 102, 1);
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* header style */
+.School-header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+/* Navbar style */
+.logo {
+    align-items: center;
+    gap: 12px;
+
+}
+
+.nav-menu>ul {
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#Home {
+    color: orange;
+}
+
+#About {
+    color: skyblue;
+}
+
+#Facilities {
+    color: rgba(5, 212, 223, 1);
+}
+
+#Admission {
+    color: rgba(93, 88, 239, 1);
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+/* small divice responsive */
+@media screen and (max-width:576px) {
+    body {
+        max-width: 556px;
+        margin: 0 auto;
+    }
+
+    .School-header {
+        border-bottom: solid 1px orange;
+        padding-bottom: 10px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .nav-menu-item,
+    .nav-menu-btn {
+        display: none;
+    }
 }
