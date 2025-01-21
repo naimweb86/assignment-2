@@ -675,6 +675,7 @@ footer {
     .stories {
         max-width: 992px;
         padding-top: 20px;
+        justify-content: center;
     }
 
     .stories-space {
