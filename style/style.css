@@ -107,7 +107,7 @@ body {
 /* small divice responsive */
 @media screen and (max-width:576px) {
     body {
-        max-width: 556px;
+        max-width: 576px;
         margin: 0 auto;
     }
 
@@ -129,4 +129,32 @@ body {
     .nav-menu-btn {
         display: none;
     }
+}
+
+/* Medium, divice responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    body {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .School-header {
+        border-bottom: solid 1px orange;
+        padding-bottom: 10px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .nav-menu-item,
+    .nav-menu-btn {
+        display: none;
+    }
+
 }
