@@ -12,7 +12,7 @@
 }
 
 body {
-    max-width: 1160px;
+    /* max-width: 1160px; */
     margin: 0 auto;
 
 }
@@ -41,6 +41,7 @@ body {
 .section-tiitle {
     font-size: 2.88rem;
     font-weight: bold;
+    text-align: center;
 
 
 }
@@ -65,7 +66,8 @@ body {
 .School-header {
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0px;
+    padding: 20px 0px;
+
 }
 
 /* Navbar style */
@@ -107,7 +109,26 @@ body {
     display: none;
 }
 
+.School-header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header-section {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.Standard-Curriculum {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+
+
 /* header section style */
+
+
 .header-section {
     align-items: center;
     justify-content: space-between;
@@ -231,13 +252,192 @@ body {
     border-radius: 50px;
 }
 
+/* stories section style */
+.stories {
+    display: flex;
+    gap: 20px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+.Our-Stories {
+    max-width: 100%;
+    background-image: url(../assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background: linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%);
+
+    padding-bottom: 40px;
+
+
+
+}
+
+.stories {
+
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.stories-1 {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 16px;
+}
+
+.stories-1>img {
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: -60px;
+
+}
+
+.stories-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.card-1-content {
+    padding: 40px;
+}
+
+.card-content {
+    padding: 40px;
+}
+
+.tittle-space {
+    margin: 35px 0px
+}
+
+.stories-grid>img {
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: -60px;
+
+}
+
+.stories1-date {
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories5-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories2-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories3-date {
+    background-color: #5d58f0;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories4-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories-grid {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 16px;
+}
+
+.card-content {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.card-content>h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.stories2-date {
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
 /* small divice responsive */
 @media screen and (max-width:576px) {
-    body {
+    .School-header {
         max-width: 576px;
         margin: 0 auto;
-        padding: 0px 15px;
+    }
 
+    .header-section {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .Standard-Curriculum {
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .Our-Stories {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .stories {
+        max-width: 576px;
+        margin: 0 auto;
     }
 
     .section-tiitle {
@@ -291,6 +491,10 @@ body {
         text-align: center;
     }
 
+    .header-section-img>img {
+        width: 350px;
+    }
+
     /* card style */
     .cards-items {
         flex-direction: column;
@@ -307,14 +511,85 @@ body {
     .arrow-btns {
         display: none;
     }
+
+    .stories-1 {
+        display: none;
+    }
+
+    .grids {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 15px;
+    }
+
+    .card-content {
+        /* width: 50%; */
+    }
+
+    /* .stories-grid {
+        width: 50%;
+    } */
+
+    .stories2-date {
+        font-size: .8rem;
+
+    }
+
+    .stories3-date {
+        font-size: .8rem;
+
+    }
+
+    .stories4-date {
+        font-size: .8rem;
+
+    }
+
+    .stories5-date {
+        font-size: .8rem;
+
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    #stories-space {
+        margin: 20px 0px;
+    }
+
+
+
 }
 
 /* Medium, divice responsive */
 @media screen and (min-width:577px) and (max-width:992px) {
-    body {
+    .School-header {
+        max-width: 9926px;
+        margin: 0 auto;
+    }
+
+    .header-section {
         max-width: 992px;
         margin: 0 auto;
     }
+
+    .Standard-Curriculum {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+    .Our-Stories {
+        max-width: 100%;
+    }
+
+    .stories {
+        max-width: 992px;
+    }
+
+    .stories-space {
+        margin-bottom: 20px;
+    }
+
 
     .School-header {
         border-bottom: solid 1px orange;
@@ -371,5 +646,13 @@ body {
 
     .arrow-btns {
         display: none;
+    }
+
+    .stories-1 {
+        display: none;
+    }
+
+    .grids {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
