@@ -277,13 +277,12 @@ marquee {
 
 .Our-Stories {
     max-width: 100%;
+    margin: 0 auto;
     background-image: url(../assets/bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     background: linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%);
-
     padding-bottom: 40px;
 
 
@@ -316,7 +315,9 @@ marquee {
 }
 
 .card-content {
-    padding: 40px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
 }
 
 .tittle-space {
@@ -393,11 +394,6 @@ marquee {
     background-color: #ffffff;
     border: 1px;
     border-radius: 16px;
-}
-
-.card-content {
-    background-color: white;
-    border-radius: 20px;
 }
 
 .card-content>h2 {
@@ -571,6 +567,12 @@ footer {
         margin: 20px 10px;
     }
 
+    .card-content {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
     #curriculum-tittle {
         margin-bottom: 20px;
     }
@@ -716,6 +718,12 @@ footer {
 
     .card {
         margin: 20px 10px;
+    }
+
+    .card-content {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
     }
 
     #curriculum-tittle {
