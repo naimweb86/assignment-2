@@ -632,6 +632,10 @@ footer {
         padding: 20px;
     }
 
+    .stories2-date {
+        font-size: .75rem;
+    }
+
     #stories-space {
         margin: 20px 0px;
     }
@@ -649,6 +653,9 @@ footer {
         margin: 20px 0px;
     }
 
+    .footer-text {
+        width: 400px;
+    }
 }
 
 /* Medium, divice responsive */
