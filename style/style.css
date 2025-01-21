@@ -282,11 +282,11 @@ marquee {
 .Our-Stories {
     max-width: 100%;
     margin: 0 auto;
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png), linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background: linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%);
+    /* background: linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%); */
     padding-bottom: 40px;
 
 
