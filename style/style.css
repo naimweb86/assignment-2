@@ -124,7 +124,13 @@ body {
     margin: 0 auto;
 }
 
-
+/* marquee */
+marquee {
+    box-shadow: 0 10px 30px #01adfd1f;
+    border: .5px solid #01adfd4b;
+    background-color: #ffffff;
+    padding: 10px;
+}
 
 /* header section style */
 
